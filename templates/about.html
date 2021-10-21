@@ -3,6 +3,16 @@
 {% block title %}About Me{% endblock title %}
 
 {% block content %}
-<h1>About Justine Rivera</h1>
-<p>MY name is Justine and I like to code.</p>
-{% endblock content %}
+<h1><center>About Justine Rivera</center></h1>
+<p><center>My name is Justine and I'm 30 years old. I'm a Marine Corps veteran 
+    who served from 2010-2015 as an avionics electrician on CH-53E's.<br> 
+    During my service I deployed to Afghanistan and Japan and was stationed in San Diego, California.
+     Upon leaving the Marine Corps I moved <br> back to my hometown in New York where 
+     I became a stay at home mom. Since then I have lived in mutliple states and am looking for a<br> place to settle down. 
+     In 2018 I recieved my bachelors in Legal Studies and have continued my education since then. I'm currently 
+     <br>attending a web development course to pursue a career in back end development. Since attending<br> this class I've come to enjoy 
+     coding and watching everything come together.</center>  
+  </p>
+{% load static %} <p><center>
+<img src="{% static 'media/profilepicture.jpeg' %}" alt="home" />
+</center></p>{% endblock content %}
